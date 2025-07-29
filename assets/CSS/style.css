@@ -16,6 +16,7 @@ body{
     padding: 10px;
 }
 
+
 .head{
     display: flex;
     justify-content: space-between;
@@ -30,11 +31,11 @@ body{
 }
 
 .img img {
-    width: 200px;
-    height: 200px;
+    width: 25%;
+    height: 60% ;
     border-radius: 50%;
    object-fit: cover;
-   margin-left: 650px;
+   margin-left: 550px;
 }
 
 .content{
@@ -62,9 +63,11 @@ margin-left: 100px;
 }
 
 
-footer{
+.footer {
       width: 85%;
     margin: 0 auto;
     display: flex;
     padding-top: 90px;
 }
+
+
