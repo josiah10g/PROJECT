@@ -83,5 +83,7 @@ body {
 }
 
 @media (min-width:768px) {
-    
+    .img{
+        margin-right: 300px;
+    }
 }
