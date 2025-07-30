@@ -70,4 +70,25 @@ margin-left: 100px;
     padding-top: 90px;
 }
 
+@media (max-width: 600px) {
+header {
+font-size: 10px;
+}
 
+.img{
+margin-left: -500px;
+}
+
+.icons
+{margin-right: -50px;
+}
+
+.down-links{
+    gap: 10px;
+}
+
+.git{
+
+}
+
+}
