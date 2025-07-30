@@ -32,10 +32,10 @@ body {
 
 .img img {
     width: 25%;
-    height: 60%;
+    height: 150px;
     border-radius: 50%;
-  
     margin-left: 550px;
+    
 }
 
 .content {
@@ -82,7 +82,7 @@ body {
     }
 
     .top-links{
-      margin: 0 auto;
+     
         padding-right: -90px;
 
     }
@@ -93,10 +93,9 @@ body {
    
 }
 
-@media (min-width:768px)and(max-width
-:992px) 
-{
-    img{
-   
+@media (min-width: 768px) and (max-width: 992px) {
+    .img img {
+        display: none;
     }
+
 }
