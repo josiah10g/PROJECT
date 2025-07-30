@@ -34,7 +34,7 @@ body {
     width: 25%;
     height: 60%;
     border-radius: 50%;
-    object-fit: cover;
+  
     margin-left: 550px;
 }
 
@@ -81,10 +81,23 @@ body {
         margin-left: -500px;
         font-size: 10px;
     }
+
+    .top-links{
+      margin: 0 auto;
+        padding-right: -90px;
+
+    }
+ .down-links{
+      margin: 0 auto;
+        padding-right: -90px;
+ }
+   
 }
 
-@media (min-width:768px) {
+@media (min-width:768px)and(max-width
+:992px) 
+{
     .img{
-        margin-right: 300px;
+    
     }
 }
