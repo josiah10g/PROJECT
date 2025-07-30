@@ -1,15 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(208, 211, 125);
     width: 100%;
 }
 
-.top-section{
+.top-section {
     display: block;
     width: 85%;
     margin: 0 auto;
@@ -17,12 +17,12 @@ body{
 }
 
 
-.head{
+.head {
     display: flex;
     justify-content: space-between;
 }
 
-.info{
+.info {
     padding-top: 100px;
 
     font-family: 'Times New Roman', Times, serif;
@@ -32,63 +32,56 @@ body{
 
 .img img {
     width: 25%;
-    height: 60% ;
+    height: 60%;
     border-radius: 50%;
-   object-fit: cover;
-   margin-left: 550px;
+    object-fit: cover;
+    margin-left: 550px;
 }
 
-.content{
+.content {
     width: 85%;
     margin: 0 auto;
 }
 
-.about{
+.about {
     margin-top: 150px;
     color: rgb(27, 27, 98);
 }
 
-.dates{
+.dates {
     margin-top: 40px;
-margin-left: 100px;
+    margin-left: 100px;
 }
 
-.work{
-     margin-top: 100px;
+.work {
+    margin-top: 100px;
     color: rgb(27, 27, 98);
 }
-.pics{
+
+.pics {
     padding-top: 40px;
-  display: flex;
+    display: flex;
 }
 
 
 .footer {
-      width: 85%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     padding-top: 90px;
 }
 
-@media (max-width: 600px) {
-header {
-font-size: 10px;
+@media (max-width:576px) {
+    .top-section {
+        font-size: 10px;
+    }
+
+    .img {
+        margin-left: -500px;
+        font-size: 10px;
+    }
 }
 
-.img{
-margin-left: -500px;
-}
-
-.icons
-{margin-right: -50px;
-}
-
-.down-links{
-    gap: 10px;
-}
-
-.git{
-
-}
-
+@media (min-width:768px) {
+    
 }
