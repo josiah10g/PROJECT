@@ -31,7 +31,7 @@ body {
 }
 
 .img img {
-    width: 25%;
+    width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-left: 550px;
@@ -92,4 +92,6 @@ body {
  }
    
 }
+
+
 
