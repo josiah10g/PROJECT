@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(208, 211, 125);
+    background-color: rgb(251, 248, 204);
     width: 100%;
 }
 
@@ -31,36 +31,44 @@ body {
 }
 
 .img img {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    margin-left: 550px;
-    
+    margin-left: 350px;
+   margin-top: -60px;
+  
 }
 
 .content {
     width: 85%;
-    margin: 0 auto;
+ margin: 0 auto;
 }
 
 .about {
     margin-top: 150px;
-    color: rgb(27, 27, 98);
+    color: rgb(3, 4, 94);
 }
 
 .dates {
-    margin-top: 40px;
+    margin-top: 80px;
     margin-left: 100px;
+    color: rgb(3, 4, 94);
 }
 
 .work {
     margin-top: 100px;
-    color: rgb(27, 27, 98);
+    color: rgb(3,4,94);
+   
 }
 
+
+
 .pics {
-    padding-top: 40px;
+    margin-top: 40px;
     display: flex;
+    color: rgb(3, 4, 94);
+     
+    justify-content: center;
 }
 
 
@@ -71,13 +79,14 @@ body {
     padding-top: 90px;
 }
 
-@media (max-width:576px) {
-    .top-section {
+@media (max-width:768px) {
+    
+     .top-section {
         font-size: 10px;
     }
 
     .img {
-        margin-left: -500px;
+        margin-left: -300px;
         font-size: 10px;
     }
 
@@ -89,7 +98,7 @@ body {
  .down-links{
       margin: 0 auto;
         padding-right: -90px;
- }
+ } 
    
 }
 
